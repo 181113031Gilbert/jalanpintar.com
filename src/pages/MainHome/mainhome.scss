@@ -1,0 +1,22 @@
+.main-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .header-page {
+        background-color: #012665;
+        flex: 1;
+    }
+
+    .body-page {
+        background-color: white;
+        flex: 4;
+    }
+
+    .footer-page {
+        flex: 1;
+        background-color: #020F1D;
+        color: white;
+    }
+
+}
