@@ -1,6 +1,7 @@
 import React from 'react'
 import { RegisterBg } from '../../assets'
-import { Button, Gap, Input } from '../../components'
+import { ButtonCreate, Gap, Input, Link } from '../../components'
+import CheckBox from '../../components/atoms/CheckBox'
 import './register.scss'
 
 const Register = () => {
@@ -14,9 +15,15 @@ const Register = () => {
                 <div className='body-left-input'>
                     <Gap height={25} />
                     <Input label="Nama" placeholder="Nama" />
+                    <div className='have-account-container'>
+                        <p className='have-account-text'>Already have an Account?</p>
+                        <Link link="" title = "Login" />
+                    </div>
                     <Input label="Email" placeholder="Email" />
                     <Input label="Password" placeholder="Password" />
-                    <Button title="Register Account" />
+                    <CheckBox />
+                    <Gap height={10} />
+                    <ButtonCreate title="Create Account" />
                 </div>
             </div>
             <div className='body-right'>

@@ -1,0 +1,30 @@
+.footer-auth-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 91px;
+
+    p {
+        font-size: 35px;
+        color: white;
+        margin: 0px;
+    }
+
+    .footer-auth-row {
+        margin: 0px;
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+        
+        .footer-auth-left {
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .footer-auth-right {
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

@@ -1,20 +1,20 @@
 .main-page {
-    height: 100vh;
+    height: 800px;
     display: flex;
     flex-direction: column;
 
     .header-page {
         background-color: #012665;
-        flex: 1;
+        height: 116px;
     }
 
     .body-page {
         background-color: white;
-        flex: 4;
+        flex: 1;
     }
 
     .footer-page {
-        flex: 1;
+        height: 168px;
         background-color: #020F1D;
         color: white;
     }

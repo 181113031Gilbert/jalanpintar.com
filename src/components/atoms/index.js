@@ -1,5 +1,9 @@
 import Input from "./Input";
 import Gap from "./Gap";
-import Button from "./Button";
+import ButtonCreate from "./ButtonCreate";
+import ButtonAuth from "./ButtonAuth";
+import Contact from "./Contact";
+import Link from "./Link";
 
-export {Input, Gap, Button}
+
+export {Input, Gap, ButtonCreate, ButtonAuth, Contact, Link}

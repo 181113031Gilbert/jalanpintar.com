@@ -1,13 +1,14 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { Home, Login, Register } from '..'
+import { FooterAuth, HeaderAuth } from '../../components'
 import './mainhome.scss'
 
 const MainHome = () => {
     return (
         <div className='main-page'>
             <div className='header-page'>
-                Header
+                <HeaderAuth />
             </div>
             <div className='body-page'>
             <Router>
@@ -25,7 +26,7 @@ const MainHome = () => {
             </Router>
             </div>
             <div className='footer-page'>
-                footer
+                <FooterAuth />
             </div>
         </div>
     )

@@ -1,0 +1,29 @@
+.header-auth-main {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #012665;
+    display: flex;
+
+    .header-auth-left {
+        flex: 1;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        .header-title {
+            margin: 0px;
+            padding: 0px;
+            font-size: 40px;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+    }
+
+    .header-auth-right {
+        display: flex;
+        flex: 1;
+        justify-content: end;
+        align-items: center;
+    }
+
+}
